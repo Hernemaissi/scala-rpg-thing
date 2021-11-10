@@ -1,0 +1,1 @@
+export type PlayerLocation = "Shop" | "Town" | "Mage Tower"

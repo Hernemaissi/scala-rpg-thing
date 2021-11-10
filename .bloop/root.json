@@ -1,0 +1,1782 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "/home/hernemaissi/projects/adventure/adventure",
+        "workspaceDir": "/home/hernemaissi/projects/adventure/adventure",
+        "sources": [
+            "/home/hernemaissi/projects/adventure/adventure/app-2.13",
+            "/home/hernemaissi/projects/adventure/adventure/app",
+            "/home/hernemaissi/projects/adventure/adventure/app",
+            "/home/hernemaissi/projects/adventure/adventure/target/scala-2.13/src_managed/main",
+            "/home/hernemaissi/projects/adventure/adventure/target/scala-2.13/twirl/main",
+            "/home/hernemaissi/projects/adventure/adventure/target/scala-2.13/routes/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.7/play-server_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.7/play-logback_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.7/play-akka-http-server_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.7/filters-helpers_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.7/play-guice_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-caffeine-cache_2.13/2.8.7/play-caffeine-cache_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/julien-truffaut/monocle-core_2.13/3.0.0-M3/monocle-core_2.13-3.0.0-M3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/julien-truffaut/monocle-macro_2.13/3.0.0-M3/monocle-macro_2.13-3.0.0-M3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-play_2.13/4.0.0/jwt-play_2.13-4.0.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-core_2.13/4.0.0/jwt-core_2.13-4.0.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/auth0/jwks-rsa/0.10.0/jwks-rsa-0.10.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1200-jdbc41/postgresql-9.4-1200-jdbc41.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.7/play-jdbc-evolutions_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.13/2.8.7/play-jdbc_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/playframework/anorm/anorm_2.13/2.6.10/anorm_2.13-2.6.10.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.7/play_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.7/play-streams_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.13/akka-http-core_2.13-10.1.13.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.3/guice-4.2.3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.3/guice-assistedinject-4.2.3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-cache_2.13/2.8.7/play-cache_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.4/caffeine-2.8.4.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/jcache/2.8.4/jcache-2.8.4.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.4.2/cats-core_2.13-2.4.2.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-free_2.13/2.4.2/cats-free_2.13-2.4.2.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-play-json_2.13/4.0.0/jwt-play-json_2.13-4.0.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.13/commons-codec-1.13.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.5.1/jackson-databind-2.10.5.1.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.2-jre/guava-28.2-jre.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/dblock/waffle/waffle-jna/1.7/waffle-jna-1.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.7/play-jdbc-api_2.13-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/usc/jdbcdslog/1.0.6.2/jdbcdslog-1.0.6.2.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/tyrex/tyrex/1.0.1/tyrex-1.0.1.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/playframework/anorm/anorm-tokenizer_2.13/2.6.10/anorm-tokenizer_2.13-2.6.10.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.1/joda-convert-2.2.1.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.7/build-link-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.10/akka-actor_2.13-2.6.10.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.10/akka-actor-typed_2.13-2.6.10.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.10/akka-slf4j_2.13-2.6.10.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.10/akka-serialization-jackson_2.13-2.6.10.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.5/jackson-core-2.10.5.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.5/jackson-annotations-2.10.5.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.5/jackson-datatype-jsr310-2.10.5.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.1/scala-java8-compat_2.13-0.9.1.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.10/akka-stream_2.13-2.6.10.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.13/akka-parsing_2.13-10.1.13.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.0/checker-qual-3.4.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.4.2/cats-kernel_2.13-2.4.2.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-json-common_2.13/4.0.0/jwt-json-common_2.13-4.0.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.7/play-exceptions-2.8.7.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.5/jackson-module-scala_2.13-2.10.5.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.5/jackson-module-parameter-names-2.10.5.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.5/jackson-dataformat-cbor-2.10.5.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.10/akka-protobuf-v3_2.13-2.6.10.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.5/jackson-module-paranamer-2.10.5.jar",
+            "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+        ],
+        "out": "/home/hernemaissi/projects/adventure/adventure/.bloop/root",
+        "classesDir": "/home/hernemaissi/projects/adventure/adventure/.bloop/root/scala-2.13/classes",
+        "resources": [
+            "/home/hernemaissi/projects/adventure/adventure/conf",
+            "/home/hernemaissi/projects/adventure/adventure/target/scala-2.13/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.3",
+            "options": [
+                "-deprecation",
+                "-unchecked",
+                "-encoding",
+                "utf8"
+            ],
+            "jars": [
+                "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.3/scala-compiler-2.13.3.jar",
+                "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar",
+                "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar",
+                "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.15.0/jline-3.15.0.jar",
+                "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
+            ],
+            "analysis": "/home/hernemaissi/projects/adventure/adventure/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-encoding",
+                "utf8",
+                "-g"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "options": [
+                    "-Duser.dir=/home/hernemaissi/projects/adventure/adventure"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "twirl-api_2.13",
+                    "version": "1.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "twirl-api_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar"
+                        },
+                        {
+                            "name": "twirl-api_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-server_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-server_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.7/play-server_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "play-server_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.7/play-server_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-logback_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-logback_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.7/play-logback_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "play-logback_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.7/play-logback_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-akka-http-server_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-akka-http-server_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.7/play-akka-http-server_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "play-akka-http-server_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.7/play-akka-http-server_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "filters-helpers_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "filters-helpers_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.7/filters-helpers_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "filters-helpers_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.7/filters-helpers_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-guice_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-guice_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.7/play-guice_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "play-guice_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.7/play-guice_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-caffeine-cache_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-caffeine-cache_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-caffeine-cache_2.13/2.8.7/play-caffeine-cache_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "play-caffeine-cache_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-caffeine-cache_2.13/2.8.7/play-caffeine-cache_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.julien-truffaut",
+                    "name": "monocle-core_2.13",
+                    "version": "3.0.0-M3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monocle-core_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/julien-truffaut/monocle-core_2.13/3.0.0-M3/monocle-core_2.13-3.0.0-M3.jar"
+                        },
+                        {
+                            "name": "monocle-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/julien-truffaut/monocle-core_2.13/3.0.0-M3/monocle-core_2.13-3.0.0-M3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.julien-truffaut",
+                    "name": "monocle-macro_2.13",
+                    "version": "3.0.0-M3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "monocle-macro_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/julien-truffaut/monocle-macro_2.13/3.0.0-M3/monocle-macro_2.13-3.0.0-M3.jar"
+                        },
+                        {
+                            "name": "monocle-macro_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/julien-truffaut/monocle-macro_2.13/3.0.0-M3/monocle-macro_2.13-3.0.0-M3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.pauldijou",
+                    "name": "jwt-play_2.13",
+                    "version": "4.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jwt-play_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-play_2.13/4.0.0/jwt-play_2.13-4.0.0.jar"
+                        },
+                        {
+                            "name": "jwt-play_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-play_2.13/4.0.0/jwt-play_2.13-4.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.pauldijou",
+                    "name": "jwt-core_2.13",
+                    "version": "4.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jwt-core_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-core_2.13/4.0.0/jwt-core_2.13-4.0.0.jar"
+                        },
+                        {
+                            "name": "jwt-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-core_2.13/4.0.0/jwt-core_2.13-4.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.auth0",
+                    "name": "jwks-rsa",
+                    "version": "0.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jwks-rsa",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/auth0/jwks-rsa/0.10.0/jwks-rsa-0.10.0.jar"
+                        },
+                        {
+                            "name": "jwks-rsa",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/auth0/jwks-rsa/0.10.0/jwks-rsa-0.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.postgresql",
+                    "name": "postgresql",
+                    "version": "9.4-1200-jdbc41",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "postgresql",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1200-jdbc41/postgresql-9.4-1200-jdbc41.jar"
+                        },
+                        {
+                            "name": "postgresql",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1200-jdbc41/postgresql-9.4-1200-jdbc41-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-jdbc-evolutions_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-jdbc-evolutions_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.7/play-jdbc-evolutions_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "play-jdbc-evolutions_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.7/play-jdbc-evolutions_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-jdbc_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-jdbc_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.13/2.8.7/play-jdbc_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "play-jdbc_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.13/2.8.7/play-jdbc_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.playframework.anorm",
+                    "name": "anorm_2.13",
+                    "version": "2.6.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "anorm_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/playframework/anorm/anorm_2.13/2.6.10/anorm_2.13-2.6.10.jar"
+                        },
+                        {
+                            "name": "anorm_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/playframework/anorm/anorm_2.13/2.6.10/anorm_2.13-2.6.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.13",
+                    "version": "1.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.7/play_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "play_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.7/play_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-streams_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-streams_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.7/play-streams_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "play-streams_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.7/play-streams_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http-core_2.13",
+                    "version": "10.1.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http-core_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.13/akka-http-core_2.13-10.1.13.jar"
+                        },
+                        {
+                            "name": "akka-http-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.13/akka-http-core_2.13-10.1.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.inject",
+                    "name": "guice",
+                    "version": "4.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guice",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.3/guice-4.2.3.jar"
+                        },
+                        {
+                            "name": "guice",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.3/guice-4.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.inject.extensions",
+                    "name": "guice-assistedinject",
+                    "version": "4.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guice-assistedinject",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.3/guice-assistedinject-4.2.3.jar"
+                        },
+                        {
+                            "name": "guice-assistedinject",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.3/guice-assistedinject-4.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-cache_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-cache_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-cache_2.13/2.8.7/play-cache_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "play-cache_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-cache_2.13/2.8.7/play-cache_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.ben-manes.caffeine",
+                    "name": "caffeine",
+                    "version": "2.8.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "caffeine",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.4/caffeine-2.8.4.jar"
+                        },
+                        {
+                            "name": "caffeine",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.4/caffeine-2.8.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.ben-manes.caffeine",
+                    "name": "jcache",
+                    "version": "2.8.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jcache",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/jcache/2.8.4/jcache-2.8.4.jar"
+                        },
+                        {
+                            "name": "jcache",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/jcache/2.8.4/jcache-2.8.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.cache",
+                    "name": "cache-api",
+                    "version": "1.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cache-api",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar"
+                        },
+                        {
+                            "name": "cache-api",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_2.13",
+                    "version": "2.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.4.2/cats-core_2.13-2.4.2.jar"
+                        },
+                        {
+                            "name": "cats-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.4.2/cats-core_2.13-2.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-free_2.13",
+                    "version": "2.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-free_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-free_2.13/2.4.2/cats-free_2.13-2.4.2.jar"
+                        },
+                        {
+                            "name": "cats-free_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-free_2.13/2.4.2/cats-free_2.13-2.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.pauldijou",
+                    "name": "jwt-play-json_2.13",
+                    "version": "4.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jwt-play-json_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-play-json_2.13/4.0.0/jwt-play-json_2.13-4.0.0.jar"
+                        },
+                        {
+                            "name": "jwt-play-json_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-play-json_2.13/4.0.0/jwt-play-json_2.13-4.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.13/commons-codec-1.13.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.13/commons-codec-1.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.10.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.5.1/jackson-databind-2.10.5.1.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.5.1/jackson-databind-2.10.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "28.2-jre",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.2-jre/guava-28.2-jre.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.dblock.waffle",
+                    "name": "waffle-jna",
+                    "version": "1.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "waffle-jna",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/dblock/waffle/waffle-jna/1.7/waffle-jna-1.7.jar"
+                        },
+                        {
+                            "name": "waffle-jna",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/dblock/waffle/waffle-jna/1.7/waffle-jna-1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-simple",
+                    "version": "1.7.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-simple",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar"
+                        },
+                        {
+                            "name": "slf4j-simple",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-jdbc-api_2.13",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-jdbc-api_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.7/play-jdbc-api_2.13-2.8.7.jar"
+                        },
+                        {
+                            "name": "play-jdbc-api_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.7/play-jdbc-api_2.13-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.zaxxer",
+                    "name": "HikariCP",
+                    "version": "3.4.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "HikariCP",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar"
+                        },
+                        {
+                            "name": "HikariCP",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.googlecode.usc",
+                    "name": "jdbcdslog",
+                    "version": "1.0.6.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jdbcdslog",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/usc/jdbcdslog/1.0.6.2/jdbcdslog-1.0.6.2.jar"
+                        },
+                        {
+                            "name": "jdbcdslog",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/usc/jdbcdslog/1.0.6.2/jdbcdslog-1.0.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "tyrex",
+                    "name": "tyrex",
+                    "version": "1.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "tyrex",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/tyrex/tyrex/1.0.1/tyrex-1.0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.playframework.anorm",
+                    "name": "anorm-tokenizer_2.13",
+                    "version": "2.6.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "anorm-tokenizer_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/playframework/anorm/anorm-tokenizer_2.13/2.6.10/anorm-tokenizer_2.13-2.6.10.jar"
+                        },
+                        {
+                            "name": "anorm-tokenizer_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/playframework/anorm/anorm-tokenizer_2.13/2.6.10/anorm-tokenizer_2.13-2.6.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.10.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.10/joda-time-2.10.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.joda",
+                    "name": "joda-convert",
+                    "version": "2.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-convert",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.1/joda-convert-2.2.1.jar"
+                        },
+                        {
+                            "name": "joda-convert",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.1/joda-convert-2.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "build-link",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "build-link",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.7/build-link-2.8.7.jar"
+                        },
+                        {
+                            "name": "build-link",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.7/build-link-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.30",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jul-to-slf4j",
+                    "version": "1.7.30",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jul-to-slf4j",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar"
+                        },
+                        {
+                            "name": "jul-to-slf4j",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jcl-over-slf4j",
+                    "version": "1.7.30",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jcl-over-slf4j",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.13",
+                    "version": "2.6.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.10/akka-actor_2.13-2.6.10.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.10/akka-actor_2.13-2.6.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor-typed_2.13",
+                    "version": "2.6.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.10/akka-actor-typed_2.13-2.6.10.jar"
+                        },
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.10/akka-actor-typed_2.13-2.6.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-slf4j_2.13",
+                    "version": "2.6.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.10/akka-slf4j_2.13-2.6.10.jar"
+                        },
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.10/akka-slf4j_2.13-2.6.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-serialization-jackson_2.13",
+                    "version": "2.6.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-serialization-jackson_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.10/akka-serialization-jackson_2.13-2.6.10.jar"
+                        },
+                        {
+                            "name": "akka-serialization-jackson_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.10/akka-serialization-jackson_2.13-2.6.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.5/jackson-core-2.10.5.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.5/jackson-core-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.5/jackson-annotations-2.10.5.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.5/jackson-annotations-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jdk8",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.5/jackson-datatype-jdk8-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jsr310",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.5/jackson-datatype-jsr310-2.10.5.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.5/jackson-datatype-jsr310-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-json_2.13",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-json_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1.jar"
+                        },
+                        {
+                            "name": "play-json_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.jsonwebtoken",
+                    "name": "jjwt",
+                    "version": "0.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jjwt",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar"
+                        },
+                        {
+                            "name": "jjwt",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.xml.bind",
+                    "name": "jakarta.xml.bind-api",
+                    "version": "2.3.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar"
+                        },
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.transaction",
+                    "name": "jakarta.transaction-api",
+                    "version": "1.3.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.transaction-api",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar"
+                        },
+                        {
+                            "name": "jakarta.transaction-api",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.inject",
+                    "name": "javax.inject",
+                    "version": "1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javax.inject",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"
+                        },
+                        {
+                            "name": "javax.inject",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_2.13",
+                    "version": "0.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.1/scala-java8-compat_2.13-0.9.1.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.1/scala-java8-compat_2.13-0.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "ssl-config-core_2.13",
+                    "version": "0.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-stream_2.13",
+                    "version": "2.6.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.10/akka-stream_2.13-2.6.10.jar"
+                        },
+                        {
+                            "name": "akka-stream_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.10/akka-stream_2.13-2.6.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-parsing_2.13",
+                    "version": "10.1.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-parsing_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.13/akka-parsing_2.13-10.1.13.jar"
+                        },
+                        {
+                            "name": "akka-parsing_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.13/akka-parsing_2.13-10.1.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "aopalliance",
+                    "name": "aopalliance",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "aopalliance",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"
+                        },
+                        {
+                            "name": "aopalliance",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.0/checker-qual-3.4.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.0/checker-qual-3.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.3.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.13",
+                    "version": "2.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.4.2/cats-kernel_2.13-2.4.2.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.4.2/cats-kernel_2.13-2.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "simulacrum-scalafix-annotations_2.13",
+                    "version": "0.5.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simulacrum-scalafix-annotations_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar"
+                        },
+                        {
+                            "name": "simulacrum-scalafix-annotations_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.pauldijou",
+                    "name": "jwt-json-common_2.13",
+                    "version": "4.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jwt-json-common_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-json-common_2.13/4.0.0/jwt-json-common_2.13-4.0.0.jar"
+                        },
+                        {
+                            "name": "jwt-json-common_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/pauldijou/jwt-json-common_2.13/4.0.0/jwt-json-common_2.13-4.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "failureaccess",
+                    "version": "1.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "failureaccess",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+                        },
+                        {
+                            "name": "failureaccess",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "listenablefuture",
+                    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "listenablefuture",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.j2objc",
+                    "name": "j2objc-annotations",
+                    "version": "1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "j2objc-annotations",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar"
+                        },
+                        {
+                            "name": "j2objc-annotations",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna",
+                    "version": "4.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+                        },
+                        {
+                            "name": "jna",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna-platform",
+                    "version": "4.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna-platform",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar"
+                        },
+                        {
+                            "name": "jna-platform",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-exceptions",
+                    "version": "2.8.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-exceptions",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.7/play-exceptions-2.8.7.jar"
+                        },
+                        {
+                            "name": "play-exceptions",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.7/play-exceptions-2.8.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-scala_2.13",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.5/jackson-module-scala_2.13-2.10.5.jar"
+                        },
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.5/jackson-module-scala_2.13-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-parameter-names",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-parameter-names",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.5/jackson-module-parameter-names-2.10.5.jar"
+                        },
+                        {
+                            "name": "jackson-module-parameter-names",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.5/jackson-module-parameter-names-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.dataformat",
+                    "name": "jackson-dataformat-cbor",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-dataformat-cbor",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.5/jackson-dataformat-cbor-2.10.5.jar"
+                        },
+                        {
+                            "name": "jackson-dataformat-cbor",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.5/jackson-dataformat-cbor-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.lz4",
+                    "name": "lz4-java",
+                    "version": "1.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lz4-java",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar"
+                        },
+                        {
+                            "name": "lz4-java",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-functional_2.13",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-functional_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1.jar"
+                        },
+                        {
+                            "name": "play-functional_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.activation",
+                    "name": "jakarta.activation-api",
+                    "version": "1.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.activation-api",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar"
+                        },
+                        {
+                            "name": "jakarta.activation-api",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-protobuf-v3_2.13",
+                    "version": "2.6.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.10/akka-protobuf-v3_2.13-2.6.10.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.10/akka-protobuf-v3_2.13-2.6.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-paranamer",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-paranamer",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.5/jackson-module-paranamer-2.10.5.jar"
+                        },
+                        {
+                            "name": "jackson-module-paranamer",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.5/jackson-module-paranamer-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.thoughtworks.paranamer",
+                    "name": "paranamer",
+                    "version": "2.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "paranamer",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.3",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/hernemaissi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
